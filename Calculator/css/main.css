@@ -1,0 +1,78 @@
+@font-face {
+font-family: Comfortaa;
+src: url(../fonts/Comfortaa.ttf);
+font-weight: normal;
+font-style: normal
+}
+body {
+background-color: #007457;
+}
+#all {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.bopon {
+border: 0.3vw;
+padding: 1vw;
+border-radius: 0.5vw;
+border-style: dotted;
+border-color: black;
+background-color: #7fffd4;
+margin: 0.3vw;
+font-family: Comfortaa;
+color: black;
+transition-duration: 0.4s;
+float: left;
+font-size: 3vw;
+outline: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+.bopon:hover {
+border-radius: 1.5vw;
+background-color: #6ed4b2;
+cursor: pointer;
+}
+.bopon:active {
+border-radius: 1vw;
+background-color: #5db698;
+cursor: text;
+}
+.bop {
+border: 0.3vw;
+padding: 1vw;
+border-radius: 0.5vw;
+border-style: dotted;
+border-color: black;
+background-color: #7fffd4;
+margin: 0.3vw;
+font-family: Comfortaa;
+color: black;
+transition-duration: 0.4s;
+float: left;
+font-size: 3vw;
+outline: none;
+}
+.bop:hover {
+border-radius: 1.5vw;
+background-color: #6ed4b2;
+cursor: pointer;
+}
+.bop:focus {
+border-radius: 1vw;
+background-color: #5db698;
+cursor: text;
+}
+.bop:active {
+border-radius: 1vw;
+background-color: #5db698;
+cursor: text;
+}
+.bop::placeholder {
+color: #000000
+}
+    
+
